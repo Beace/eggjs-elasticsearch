@@ -2,7 +2,7 @@
   "name": "eggjs-elasticsearch",
   "version": "0.0.1",
   "description": "eggjs elasticsearch plugin",
-  "types": "./lib/type.d.ts",
+  "types": "./type.d.ts",
   "eggPlugin": {
     "name": "elasticsearch"
   },
@@ -11,17 +11,10 @@
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "ci": "npm run lint && npm run cov",
-    "build": "tsc -p ./tsconfig.build.json",
+    "build": "tsc -p ./tsconfig.build.json && cp ./package.json lib/",
     "lint:fix": "eslint . --ext .ts --fix",
     "lint": "eslint . --ext .ts"
   },
-  "files": [
-    "lib",
-    "app.js",
-    "app.d.js",
-    "agent.js",
-    "app.d.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Beace/eggjs-elasticsearch.git"
@@ -54,7 +47,6 @@
     "version": "16, 18"
   },
   "dependencies": {
-    "@elastic/elasticsearch": "^8.8.1",
-    "ioredis": "^5.3.2"
+    "@elastic/elasticsearch": "^8.8.1"
   }
 }
