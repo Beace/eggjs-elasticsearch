@@ -1,5 +1,13 @@
 # eggjs-elasticsearch
 
+<a href="https://codecov.io/gh/BeAce/eggjs-elasticsearch" >
+ <img src="https://img.shields.io/codecov/c/github/Beace/eggjs-elasticsearch?token=zWoIP2u0XD&logoColor=18181B&color=28CF8D
+"/>
+ </a>
+<a href="https://www.npmjs.com/package/eggjs-elasticsearch"><img src="https://img.shields.io/npm/v/eggjs-elasticsearch.svg?style=flat&colorA=18181B&colorB=28CF8D" alt="Version"></a>
+<a href="https://www.npmjs.com/package/eggjs-elasticsearch"><img src="https://img.shields.io/npm/dm/eggjs-elasticsearch.svg?style=flat&colorA=18181B&colorB=28CF8D" alt="Downloads"></a>
+
+
 eggjs elasticsearch plugin use elasticsearch@8
 
 ##  install
