@@ -16,7 +16,11 @@
     "lint": "eslint . --ext .ts"
   },
   "files": [
-    "lib"
+    "lib",
+    "app.js",
+    "app.d.js",
+    "agent.js",
+    "app.d.js"
   ],
   "repository": {
     "type": "git",

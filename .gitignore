@@ -116,3 +116,7 @@ lib
 # OSX
 .DS_Store
 run/
+agent.d.ts
+agent.js
+app.d.ts
+app.js
