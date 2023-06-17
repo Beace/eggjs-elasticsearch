@@ -1,6 +1,6 @@
 {
   "name": "eggjs-elasticsearch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "eggjs elasticsearch plugin",
   "types": "./types.d.ts",
   "eggPlugin": {
